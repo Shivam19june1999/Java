@@ -1,16 +1,17 @@
 public class Kaju_Barfi {
-	public static void main(String[] args) {
-		int n=9,r,c,space;
-		for(r=1;r<=n;r++){
-			for(space=1;space<=n-(4+r) || space<=(r+4-n);space++ ){
-				System.out.print(" ");
-			} 
-			for(c=1;c<=r && c<=(n-r+1);c++){
-				System.out.print("* ");
-			}
-		}
-		System.out.println();
-	}
+    public static void main(String[] args) {
+        int n = 21, r, c, space;
+		int h=n/2;
+        for (r = 1; r <= n; r++) {
+            for (space = 1; space <=(n - (h + r)) || space <=(r + h - n); space++) {
+                System.out.print(" ");
+            }
+            for (c = 1; c <= r && c <= (n - r + 1); c++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }
 //        *                r=1     c=1 
 //       * *               r=2     c=2
