@@ -5,9 +5,9 @@ public class Kpattern {
 		int i,j;
 		for(i=1;i<=n;i++){
 		for(j=1;j<=(h-i+1) || j<=(i-h+1);j++){
-		System.out.print("* ");
+		System.out.print("*"+" ");
 		}
-		System.out.print("\n");
+		System.out.println();
 		}
 		
         // for (int i = 0; i < r; i++) {
