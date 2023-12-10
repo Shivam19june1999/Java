@@ -7,7 +7,7 @@ public class Intro {
 			for(int j=0;j<arr[i].length;j++){
 				if(arr[i][j]==key){
 					System.out.print("Element Found at ("+i+","+j+")"+" index.");
-					return 1;
+					// return 1;
 				}
 			}
 		}
