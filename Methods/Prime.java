@@ -1,4 +1,3 @@
-// import java.util.*;
 public class Prime{
 	public static void prime(int n){
 		// Scanner sc=new Scanner(System.in);
