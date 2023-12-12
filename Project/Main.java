@@ -7,7 +7,7 @@
 //Utility
 package Project;
 import java.util.*;
-import java.lang.*;
+// import java.lang.*;
 
 interface utility{
 	public void get_details();
