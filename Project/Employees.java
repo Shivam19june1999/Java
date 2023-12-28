@@ -21,6 +21,7 @@ public class Employees extends Showroom implements utility{
 	public void set_details(){
 		Scanner sc=new Scanner(System.in);
 		UUID uuid=UUID.randomUUID();
+		emp_id=String.valueOf(uuid);
 		System.out.println();
 		System.out.println("ENTER EMPLOYEE DETAILS");
 		System.out.println();

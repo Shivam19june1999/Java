@@ -43,9 +43,10 @@ public class Intro {
 		int s1,s2;
 		System.out.print("Enter size of s1:");//row size
 		s1=sc.nextInt();
-		System.out.print("Enter siz of s2:");//column size
+		System.out.print("Enter size of s2:");//column size
 		s2=sc.nextInt();
 		int arr[][]=new int[s1][s2];
+		System.out.println(arr.length);
 		System.out.print("Size of arr[s1][s2] is:"+s1+"*"+s2);
 		System.out.println();
 		for(int i=0;i<arr.length;i++){

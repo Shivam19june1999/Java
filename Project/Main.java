@@ -7,7 +7,7 @@
 //Utility
 package Project;
 import java.util.*;
-// import java.lang.*;
+import java.lang.*;
 
 interface utility{
 	public void get_details();
@@ -21,15 +21,10 @@ public class Main {
 		System.out.println("ENTER YOUR CHOICE");
 		System.out.println();
 		System.out.println("1).ADD SHOWROOMS");
-		
 		System.out.println("2).ADD EMLPOYEES");
-		
 		System.out.println("3).ADD CARS");
-		
 		System.out.println("4).GET SHOWROOMS");
-		
 		System.out.println("5).GET EMPLOYEES");
-		
 		System.out.println("6).GET CARS");
 		
 	}
